@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./(home)/app.tsx";
 import "./index.css";
-import Header from "./home/header";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <>
-    <Header></Header>
+    <App></App>
   </>
 );
