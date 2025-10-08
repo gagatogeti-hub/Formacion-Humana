@@ -1,8 +1,7 @@
 function Header() {
   return (
     <header className="flex items-center justify-between bg-[#0f172a] text-white px-8 py-4 shadow-md">
-      {/* LOGO */}
-
+      Religion
       {/* MENÚ EN HORIZONTAL */}
       <ul className="flex space-x-8">
         <a href="#">
@@ -26,7 +25,6 @@ function Header() {
           </li>
         </a>
       </ul>
-
       {/* BOTÓN */}
       <button className="bg-white hover:bg-green-200 text-black px-4 py-2 rounded-lg transition">
         Iniciar sesión
